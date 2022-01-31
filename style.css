@@ -1,0 +1,152 @@
+/*
+Theme Name: Vibe Adventures
+Theme URI: https://agency.vibeadventures/wp-content/themes/twentytwentyone-child
+Version: 1.0
+Description: Vibe Adventures Theme
+Author: Gustavo Menchaca
+Author URI: https://monpage.web.app
+Template: twentytwentyone
+*/
+
+/* hide vendors tabs*/
+#tab-title-wcfm_product_multivendor_tab, #tab-title-wcfm_policies_tab, #tab-title-wcfm_enquiry_tab{
+	display:none!important;
+}
+#wcfm-main-contentainer{min-width:100%}
+
+/*buttons*/
+.open {color:white!important}
+.close {color:black!important}
+select, input, button{border-radius: 5px !important; }
+.quantity{display:none!important}
+.add_to_cart_button{    
+	background: #82CF45!important;
+    border-radius: 5px!important;
+	margin: 0 auto;
+    margin-bottom: 15px;
+	position: relative;
+}
+.button{    
+	background: #82CF45!important;
+    border-radius: 5px!important;
+	margin: 0 auto;
+    margin-bottom: 15px;
+}
+.wc-block-grid__product-add-to-cart{height:15px;}
+
+/*product grid*/
+.woocommerce-loop-product__title{position:relative; top:15px}
+li.product, .wc-block-grid__product {
+	padding: 0px !important;
+    border: 0px !important;
+    border-radius: 5px !important;
+    background-color: #fff !important;
+    box-shadow: 0 0.4rem 1.1rem rgb(50 58 67 / 12%) !important;
+    transition: box-shadow .25s,transform .25s !important;
+}
+li.product:hover, .wc-block-grid__product:hover {
+  transform: scale(1.1); }
+.size-woocommerce_thumbnail{border-radius: 5px 5px 0px 0px;}
+.woocommerce-loop-product__title, .wc-block-grid__product-title{text-align: center;padding: 0px 10px 0px 10px;}
+
+/*price*/
+.price{margin: -15px;}
+.price, .wc-block-grid__product-price {
+	position: relative;
+    top: -110px;
+    margin-left: 0px!important;
+    background: #82CF45;
+    max-width: 300px!important;
+    border-radius: 0px 8px 8px 0px;
+    color: white!important;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*product title*/
+.wc-block-grid__product-link{
+	text-decoration: none;
+}
+
+.ti-widget, .ti-trip {
+    width: 90%;
+    margin: auto;
+}
+
+/*footer*/
+
+#content{margin-top:70px}
+.travel-link{color: rgb(130, 207, 69);
+    text-decoration: none;}
+.gray{color: #8f98a3;}
+table, tr, td{
+ border:hidden;
+}
+
+/*cover*/
+.cover-title {
+    padding-top: 130px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 782px){
+	.cover-title {font-size:30px; padding-top: 100px;}
+}
+@media only screen and (min-width: 783px){
+	.cover-title {font-size:70px;}
+}
+
+/*footer*/
+@media only screen and (max-width: 782px){
+	.mobile-center {text-align:left;}
+}
+.travel-spacing-none {
+    color: white;
+    padding-bottom: 30px;
+	font-size: 18px;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+.travel-link {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+}
+.travel-link{display:block}
+.gray{color:#8f98a3}
+footer{
+    max-width: 2600px !important;
+    margin: 0 auto;}
+.widget-area{margin-top:400px}
+table.variations select {
+   max-width: 100% !important; 
+}
+
+/*header*/
+#masthead{
+	z-index: 2 !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0px;
+    width: 100%;
+    max-width: 2600px;
+    background: rgb(130, 207, 69, 0.7);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 0px;
+    min-height: 70px;
+}
+.custom-logo{
+	    min-width: 250px;
+}
+@media only screen and (min-width: 482px){
+	li.white-menu > a{color:white!important}
+}
+
+@media only screen and (min-width: 822px){
+.site-header {
+    padding-top: calc(0.4 * var(--global--spacing-vertical))!important;
+	}}

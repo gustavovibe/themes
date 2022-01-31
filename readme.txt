@@ -1,0 +1,1 @@
+Start by customizing in apparience the background color to white and hide the tagline
